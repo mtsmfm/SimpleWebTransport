@@ -160,7 +160,7 @@ namespace JamesFrowen.SimpleWeb
         {
             int sendLength = 0;
             const byte finished = 128;
-            const byte byteOpCode = 2;
+            const byte byteOpCode = 1;
 
             buffer[startOffset + 0] = finished | byteOpCode;
             sendLength++;
